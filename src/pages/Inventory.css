@@ -1,0 +1,29 @@
+.inventory {
+    display: grid;
+    grid-template-columns: 17% auto;
+    grid-template-rows: 8% 92%;
+
+    background: radial-gradient(
+            ellipse at top left,
+            #bf2701 0%,
+            #2a1055 40%,
+            #6e2910 100%
+        ),
+        linear-gradient(120deg, rgba(165, 56, 56, 0.1) 0%, rgb(82, 20, 6) 100%);
+    background-blend-mode: lighten, normal;
+    grid-template-areas:
+        "page-logo header"
+        "sidebar inventory-content";
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(20px);
+}
+.inventory-content{
+    background-color: rgba(10, 8, 8, 0.766);
+    width: 99%;
+    height: 99%;
+    border-radius: 15px;
+    grid-area: inventory-content;
+    margin: auto auto;
+    
+}

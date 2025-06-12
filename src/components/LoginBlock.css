@@ -1,0 +1,110 @@
+.login-block {
+    background-color: #131d27;
+    padding: auto;
+    width: 600px;
+    height: 100%;
+
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+form {
+    height: auto;
+    width: auto;
+    padding: 15px;
+}
+h1 {
+    font-size: 5em;
+    padding: 10px 10px 0 0;
+    text-align: center;
+
+}
+.form-group {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div {
+
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 32px 0 rgba(19, 29, 39, 0.35),
+        0 1.5px 4px 0 rgba(0, 0, 0, 0.9);
+    border-radius: 8px;
+    
+}
+.image {
+    background-color: #131d27;
+    padding: auto;
+    width: auto;
+    display: flex;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.new-user {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    align-items: center;
+}
+.input {
+    padding: 10px;
+    padding-left: 0;
+    margin-right: 30px;
+    background-color: #333;
+    border: transparent;
+    width: 72%;
+}
+.form-group .user-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    border: 1px solid #f5f0ff;
+    border-top: transparent;
+    border-left: transparent;
+    padding: 5px;
+    border-radius: 20px;
+    width: 50%;
+    transition: width 0.2s ease-in-out;
+}
+.form-group .user-input:focus-within {
+    width: 55%;
+}
+.form-group .user-input:hover {
+    width: 55%;
+}
+
+#username:focus,
+#password:focus {
+    outline: none;
+    border: 1px solid transparent;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 0 0 0;
+}
+
+.header img {
+    margin-right: 16px; /* Space between logo and title */
+    align-self: flex-start;
+    height: 48px; /* Set desired height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: contain;
+    margin-left: 10px;
+}
+.header h1 {
+    margin-left: 10%;
+}
+.remember-me {
+    padding:10px;
+}

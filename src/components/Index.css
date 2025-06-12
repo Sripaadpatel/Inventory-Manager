@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap");
+.index-page {
+    font-family: "Neuton", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #131d27;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(D:\InventoryApp\MyFrontend\src\assets\logo2.png);
+    background-size: 30vw ;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+.title {
+    font-family: "Neuton", serif;
+    color: #f5f0ff;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: left;
+    padding: 40px;
+    margin: 0;
+}
+.description {
+    font-family: "Neuton", serif;
+    color: #a6a6a6;
+    font-size: 1.6rem;
+    padding: 40px;
+    margin-top: 0;
+    text-align: left;
+    width: 50%;
+    line-height: 1.5;
+}
+.tag-line {
+    font-family: "Neuton", serif;
+    color: #d23f37;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 40px;
+    font-style: oblique;
+    text-align: center;
+}
+.bottom-line {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.start-using {
+    margin-right: 20%;
+    height: 40%;
+    background-color: #a6a6a6;
+    color: #131d27;
+    font-size: 1.4vi;
+    font-family: "Neuton", serif;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    
+}
+.start-using:hover {
+    border-color: #d23f37;
+    border-width: 0 8px 8px 0;
+    border-radius: 20px;
+}
+.start-using:active {
+    border-width: 0;
+    transition: all 0.1s ease-in-out;
+}

@@ -1,0 +1,49 @@
+.inventory-view-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+
+}
+.inventory-view-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+.inventory-view-header h2 {
+    color: #ffffff;
+    font-size: 32px;
+    margin: 0;
+}
+.inventory-products-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* keep horizontal centering if you want */
+    justify-content: flex-start; /* top align */
+    flex-grow: 1;
+    padding: 10px;
+    scrollbar-width:none; /* For Firefox */
+    overflow-x: auto;
+}
+.product-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.inventory-view-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
