@@ -1,6 +1,6 @@
 {
   "homepage": "https://sripaadpatel.github.io/Inventory-Manager/",
-  "name": "myfrontend",
+  "name": "InventoryManager",
   "private": true,
   "version": "0.0.0",
   "type": "module",

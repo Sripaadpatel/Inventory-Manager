@@ -7,20 +7,24 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import { HashRouter as Router, Routes, Route } from "react-router-dom"; // <-- Use HashRouter
 import "./App.css";
 import Inventory from "./pages/Inventory";
+import { DiVim } from "react-icons/di";
 
 function App() {
     return (
-        <Router>
-            <Routes>
-                <Route path="/" element={<Index />} />
-                <Route path="/Login" element={<LoginBlock />} />
-                <Route path="/Signup" element={<SignupBlock />} />
-                <Route path="/:userId" element={<ProtectedRoute />}>
-                    <Route path="dashboard" element={<Dashboard />} />
-                    <Route path="inventory" element={<Inventory />} />
-                </Route>
-            </Routes>
-        </Router>
+        <div>
+            Hello World
+            <Router>
+                <Routes>
+                    <Route path="/" element={<Index />} />
+                    <Route path="/Login" element={<LoginBlock />} />
+                    <Route path="/Signup" element={<SignupBlock />} />
+                    <Route path="/:userId" element={<ProtectedRoute />}>
+                        <Route path="dashboard" element={<Dashboard />} />
+                        <Route path="inventory" element={<Inventory />} />
+                    </Route>
+                </Routes>
+            </Router>
+        </div>
     );
 }
 
