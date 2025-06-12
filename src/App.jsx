@@ -12,7 +12,6 @@ import { DiVim } from "react-icons/di";
 function App() {
     return (
         <div>
-            <h1 className="Test">Hello World</h1>
             <Router>
                 <Routes>
                     <Route path="/" element={<Index />} />
